@@ -6,7 +6,7 @@
 /*   By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 17:47:28 by phudyka           #+#    #+#             */
-/*   Updated: 2022/06/30 11:33:35 by phudyka          ###   ########.fr       */
+/*   Updated: 2022/07/04 11:02:39 by phudyka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,10 @@ int	ft_quote(const char *s, int c)
 		i++;
 	}
 	return (0);
+}
+
+void	ft_error(void)
+{
+	perror("Error!");
+	exit(EXIT_FAILURE);
 }

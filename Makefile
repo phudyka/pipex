@@ -6,13 +6,13 @@
 #    By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/30 11:36:19 by phudyka           #+#    #+#              #
-#    Updated: 2022/06/28 17:44:13 by phudyka          ###   ########.fr        #
+#    Updated: 2022/07/01 10:58:15 by phudyka          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	pipex
 
-SRCS	=	pipex.c path.c\
+SRCS	=	pipex.c pipex_utils.c\
 
 CC      = gcc
 

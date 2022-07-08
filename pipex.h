@@ -6,7 +6,7 @@
 /*   By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/27 10:56:21 by phudyka           #+#    #+#             */
-/*   Updated: 2022/06/29 11:29:31 by phudyka          ###   ########.fr       */
+/*   Updated: 2022/07/04 11:02:59 by phudyka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@
 # include "libft/libft.h"
 # include "ft_printf/ft_printf.h"
 
-char    *ft_path(char *path, char **envp);
-
+void	ft_error(void);
+int		ft_quote(const char *s, int c);
 #endif
