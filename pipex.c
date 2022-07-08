@@ -6,7 +6,7 @@
 /*   By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/27 10:56:19 by phudyka           #+#    #+#             */
-/*   Updated: 2022/07/08 11:31:57 by phudyka          ###   ########.fr       */
+/*   Updated: 2022/07/08 11:53:14 by phudyka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,9 @@ char	*ft_path(char *cmd, char **envp)
 			if (access(path_tab, F_OK && X_OK))
 				path_ok = ft_substr(path_tab, i, strlen(path_tab - i));
 	}
-	return (path_ok)
+	return (path_ok);
 }
 
-/*
 int	main(int argc, char **argv)
 {
 	char	*cmd1;
@@ -54,4 +53,3 @@ int	main(int argc, char **argv)
 	free(cmd_path2);
 	return (0);
 }
-*/
